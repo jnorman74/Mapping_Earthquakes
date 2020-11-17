@@ -1,9 +1,3 @@
-// Add console.log to check to see if our code is working.
-console.log("working");
-
-// Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.5, -122.5], 10);
-
 // Add GeoJSON data.
 let sanFranAirport =
 {"type":"FeatureCollection","features":[{
